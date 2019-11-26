@@ -5,19 +5,12 @@ import dash_html_components as html
 import plotly.graph_objs as go
 import plotly.express as px
 
-from PIL import Image
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 #imports for data + manipulation
 import pandas as pd
 import numpy as np
-import imdb
 from bs4 import BeautifulSoup
-import requests
-import re
-
-#other imports
-import os
 
 ####
 
